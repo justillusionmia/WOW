@@ -44,7 +44,7 @@
     border-radius: 8px;
 }
 
-@media (max-width: 670px) {
+@media (max-width: 700px) {
     .gallery-container .grid {
         grid-template-columns: 1fr;
         justify-content: center;
@@ -52,6 +52,10 @@
     }
 
     .grid-elements:nth-child(2) {
+        grid-column: span 1;
+    }
+
+    .grid-elements:nth-child(9) {
         grid-column: span 1;
     }
 }
