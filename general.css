@@ -170,8 +170,8 @@ li.active .underline{
     padding: 10px;
     z-index: 1000;
     position: fixed;
-    top: 15px;
-    left: 15px;
+    top: 17px;
+    left: 5px;
 }
 
 .menu-button .menu-line {
@@ -220,7 +220,7 @@ li.active .underline{
 }
 
 /* hide desktop navbar on smaller screens */
-@media (max-width: 670px) {
+@media (max-width: 700px) {
     .navbar {
         display: none;
     }
