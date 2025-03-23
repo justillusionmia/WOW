@@ -36,14 +36,14 @@ a {
 
 .sessions .sessions-group .sessions-group-body {
     height: 0;
-    width: 50%;
+    width: 60%;
     overflow: hidden; 
     transition: height 1s ease, padding 1s ease;
 }
 
 .sessions .sessions-group .sessions-group-body.open {
     height: auto;
-    width: 50%;
+    width: 60%;
     padding: 20px;
 }
 
