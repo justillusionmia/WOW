@@ -88,8 +88,6 @@ a {
     height: 99%;
 }
 
-
-
 .sessions-group-body .holder .element:first-child {
     border-top-left-radius: 8px;
 }
@@ -108,9 +106,10 @@ a {
 }
 
 
-@media (max-width: 670px) {
+@media (max-width: 700px) {
+
     .sessions-group-body .holder {
         width: 100%;
-        height: 30%;
+        height: 100%;
     }
 }
