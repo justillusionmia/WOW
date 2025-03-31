@@ -13,8 +13,48 @@ h2 {
 .container .text-block {
     background-color: #111;
     padding: 20px;
+    padding-bottom: 0;
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 255, 255, 0.2);
     margin-bottom: 30px;
     color: white;
+}
+
+.meFlex {
+    display: flex;
+    flex-direction: row;
+}
+
+.text-space {
+    width: 70%;
+}
+
+.me-img {
+    margin-left: 20px;
+    height: 500px;
+    width: 500px;
+}
+
+.me-img-pic {
+    border-radius: 30px;
+}
+
+@media (max-width: 800px) { 
+
+    .meFlex {
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .me-img {
+        margin-left: 0px;
+        height: 300px;
+        width: 300px;
+        margin-bottom: 10px;
+    }
+
+    .text-space {
+        width: 100%;
+    }
 }
